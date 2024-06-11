@@ -1,0 +1,96 @@
+body{
+    background-color: #0D0714;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+.maininfo{
+    min-width: 583px;
+    min-height: 738px;
+    background-color: #1D1825;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    padding-bottom: 20px;
+}
+
+input::placeholder {
+    color: gray;
+}
+  
+.input{
+    width: 341px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #1D1825;
+    border: 1px solid plum;
+    margin-right: 10px;
+    padding-left: 10px;
+    color: #9E78CF;
+}
+.imgplus{
+    height: 40px;
+    width: 40px;
+    background-color: #9E78CF;
+    border-radius: 10%;
+}
+.imgplus:active {
+    transition: background-color 0.1s;
+    background-color: #af86e6;
+}
+.imgplus:hoover{
+    background-color: #9E78CF;
+}
+.inputinfo{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: flex;
+    padding-left: 15%;
+}
+.ToDO{
+    padding-left: 15%;
+    display: flex;
+    flex-direction: column;
+
+}
+.Done{
+    padding-left: 15%;
+}
+.TasksToDo{ 
+    max-width: 405px;
+    max-height: 65px;
+    background-color: #15101C;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.TasksDone{
+    width: 405px;
+    height: 65px;
+    background-color: #15101C;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+.headsh3{
+    color: white;
+}
+.infotodoh3{
+    max-width: 330px;
+    margin-left: 15px;
+    width: 330px;
+    color: #9E78CF;;
+    word-break: break-all;
+}
+.infodoneh3{
+   max-width: 330px;
+   color: #78CFB0;
+   margin-left: 15px;
+   width: 330px;
+   text-decoration: line-through;
+   word-break: break-all;
+}
+
